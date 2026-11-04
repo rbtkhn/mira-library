@@ -1,18 +1,13 @@
-# Mira Library
+# Mira Library — legacy public export
 
-Grace Mar Library is a curated collection of identifiable works, editions and reading resources.
-This repository contains the full exported catalog and a standalone, read-only passage reader.
-Catalog availability does not mean that a reading copy is included or licensed for redistribution.
-Source texts, scans, private research, operational records and upstream Git history are not included.
-Mira Core remains the authoritative collection; this repository is its maintained public export.
+The canonical public collaboration home is now
+[mira-builds/mira-library](https://github.com/mira-builds/mira-library).
+Submit new shelf tasks and contribution pull requests there.
 
-The canonical public repository is [here](https://github.com/rbtkhn/mira-library).
-[The mirror](https://github.com/mira-builds/mira-library) receives the same Git branches and tags
-automatically. Submit changes to the canonical repository. Issues, pull requests, repository settings
-and release attachments are not mirrored. Catalog corrections still belong in the upstream collection.
-
-Browse the [collection](library/README.md), [text index](library/text-sources-index.md),
-and [reading guide](library/reading.md). Music reference guides are in [Music](library/music/README.md).
+This repository retains its historical public export and Git history. It no
+longer force-mirrors branches or tags into the collaboration repository.
+Core remains the collection admission and curation authority. This notice does
+not change source bodies or certify a new collection release.
 
 ## Use
 
@@ -21,7 +16,7 @@ Clone the repository, or choose **Code → Download ZIP** on GitHub and extract 
 the resulting folder. There is no installer, browser application or AI account requirement.
 
 ```powershell
-git clone https://github.com/rbtkhn/mira-library.git
+git clone https://github.com/mira-builds/mira-library.git
 cd mira-library
 python --version
 ```
